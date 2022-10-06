@@ -1,0 +1,10 @@
+let arr = [2, 3, 4, 5];
+    function product0fArray() {
+        let product = 1;
+        for (i = 0; i < arr.length; i++)
+            product = product * arr[i];
+        return product;
+    }
+ 
+    console.log(product0fArray())
+

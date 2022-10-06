@@ -1,0 +1,6 @@
+
+
+let string = "aaeeddcccc"
+let dupesLetters = [...new Set(string)];
+
+console.log(dupesLetters);
